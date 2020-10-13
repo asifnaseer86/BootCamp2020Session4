@@ -2,7 +2,7 @@ import React from 'react'
 
 function Day(props) {
     return(
-        <h3>Daytime ={props.isthisMorning? 'Morning':'Night'}</h3>
+        <h3>Good {props.isthisMorning? 'Morning':'Night'}</h3>
     );
 }
 
